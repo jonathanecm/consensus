@@ -22,6 +22,5 @@ def connect():
         conn.close()
         print('Connection closed.')
 
-
 if __name__ == '__main__':
     connect()
