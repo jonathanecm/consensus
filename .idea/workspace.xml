@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="073a7397-a621-4ee7-96ad-42da002583f8" name="Default" comment="Adding scripts for accessing the data.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/abstracts.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/consensus.iml" afterPath="$PROJECT_DIR$/.idea/consensus.iml" />
+    <list default="true" id="073a7397-a621-4ee7-96ad-42da002583f8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Consensus.ipynb" afterPath="$PROJECT_DIR$/Consensus.ipynb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pvalues_extractor.py" afterPath="$PROJECT_DIR$/scripts/pvalues_extractor.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -408,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1490220669407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding p-value extractor">
+      <created>1504905437964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504905437964</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -451,7 +454,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding scripts for accessing the data." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding scripts for accessing the data." />
+    <MESSAGE value="Adding p-value extractor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding p-value extractor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
