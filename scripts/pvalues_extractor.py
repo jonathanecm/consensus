@@ -39,8 +39,13 @@ input_data_path = datadir + "abstracts.csv"
 abstracts = pd.read_csv(input_data_path)
 abstracts.drop(['Unnamed: 0'], axis = 1, inplace=True)
 
-ser = abstracts['abstract']
-#
-abstracts['text'] = ser
-print(abstracts)
+#whReleases['tokenized_text'] = whReleases['text'].apply(lambda x: nltk.word_tokenize(x))
+
+abstracts["pvalues"]  = abstracts['abstract'].apply(lambda x: extract_p_values(x, "abstract"))
+print(abstracts['pvalues'].notnull)
+
+
+#pvalues = extract_p_values(str(abstracts["abstract"]), "abstract")
+
+#print(pvalues)
 
