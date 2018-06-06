@@ -1,7 +1,7 @@
 #### Cleans jstor and PMC raw datasets and creates a master dataset ##########
 # 
-# This script takes to datasets, jstor and PMC, cleans features and merges the
-# datasets into one master dataset.
+# This script takes to datasets containing a full list of articles in jstor and 
+# PMC Europe and cleans features and merges the datasets into one master dataset.
 #
 ##############################################################################
 
