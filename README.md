@@ -10,7 +10,10 @@ author:
 We seek to understand how the use of p-value evolved historically. Using Sociological theories of institutionalization and collective attention, and Computational methods, we hypothesized that the institutionalization of p-values led to a decrease on the level of its specification in research articles, signifying that p-values are taken-for-granted. We expect to contribute to debates about the misuse of p-values in academic fields such as life sciences, biomedical sciences, and psychology.
 
 We conduct a data mining by managing, cleaning, and transforming data from 300,000+ public health articles from JSTOR and Europe PMC, and mined p-values from the text by querying a relational database of 1,200,000+ entries using R, Python, and SQL. 
+
 ## Files
+
+All the files are contained in the scripts folder. 
 
 1. database.connection.ipynb: 
 Develops a function in python and MySQL that queries a relational database of 1,200,000+ entries at the Knowledge Lab - University of Chicago. The function establishes the connection to the database using helper functions located in the function.py file, and uses SQL DML language to select features or variables from multiple tables, performs a table merge, and creates a dataset in CSV format for further analysis. 
