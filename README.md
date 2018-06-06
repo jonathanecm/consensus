@@ -14,7 +14,7 @@ We conduct a data mining by managing, cleaning, and transforming data from 300,0
 
 1. GetPvaluesEuropePMC_jonathan.r
 
-This is an script that interfaces the Europe PMC API and extracts p-values using a list of terms to search in text extracted from a dataframe. Then it saves a R.data file with the pmcids.
+This is an script that interfaces the Europe PMC API and extracts p-values from 170,000+ files from Europe PMC using a list of terms to search in text extracted from a dataframe. Then it saves a R.data file with the pmcids.
 
 
 - Consensus.ipynb: Interface python/MySQL function for querying a distributed database.

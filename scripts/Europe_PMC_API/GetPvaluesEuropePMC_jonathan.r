@@ -27,7 +27,7 @@ datalist = list()
 # Extracts data according to parameters. 
 for(i in methods[1:4]){ 
   method = sprintf("METHODS:%%22%s%%22",i)   # idetifies methos section in articles. 
-  restpmc = europepmc::epmc_search(method, output = "id_list", limit = 5000)
+  restpmc = europepmc::epmc_search(method, output = "id_list", limit = 1000000)
   datalist[[i]] <- restpmc$pmcid             # Creates a pmcid list with p-values in methods section. 
   print(method)
 }
