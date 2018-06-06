@@ -14,7 +14,6 @@ import pandas as pd
 
 
 ### Functions #################################
-
 def read_db_config(filename='config.ini', section='mysql'):
     '''
     -----------------------------------------------------------------------
@@ -77,8 +76,7 @@ def iter_row(cursor, size=5):
             break
         else:
             return rows
-            # for row in rows:
-            # yield rows
+
 
 
 

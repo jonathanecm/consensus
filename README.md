@@ -1,7 +1,9 @@
 ---
 title: "Project Consensus"
-author: 
+Institution: 
   | University of Chicago
+author: 
+  | 
 ---
 
 Creates a master list from JSTOR and Europe PMC publications. 
